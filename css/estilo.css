@@ -635,6 +635,9 @@ a:visited{
 .s1-btn1:visited{
     color: white;
 }
+.s1-btn1:link{
+    color: white;
+}
 
 .footerlink:link{
     color: #f5df4e;
