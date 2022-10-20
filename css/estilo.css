@@ -835,3 +835,143 @@ a:visited{
         font-size: 12.6px;
     }
 }
+@media (max-width:957px) and (min-width: 465px){
+    .contenedor {
+        color: #212529;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+    }
+
+    .seccion1{
+        height: 100%;
+        padding: 103px 0 30px 0;
+    }
+
+    .flecha {
+        margin: 133px auto 0px auto;
+        color: #212529;
+        font-size: 1.5em;
+    }
+
+    .s1-left{
+        align-items: center;
+        text-align: center;
+    }
+
+    .s1-buttons{
+        justify-content: center;
+    }
+
+    .seccion2{
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+
+    .dos{
+        flex-direction: column;
+
+    }
+
+    .bio{
+        width: 100%;
+    }
+
+    .s2-right{
+        width: 100%;
+    }
+
+    .circulo{
+        background-size: 12%;
+    }
+
+    .tres {
+        flex-wrap: wrap;
+        width: 74%;
+        text-align: start;
+        margin: 0 auto;
+    }
+    
+    .wrap{
+        grid-template-columns: repeat(2,1fr);
+        width: 86%;
+    }
+
+    .s4-section1{
+        flex-direction: column;
+    }
+
+    .columna{
+        margin-top: 43px;
+    }
+
+    .s4-section2{
+        margin: 0 135px;
+    }
+
+    .seccion6{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+    }
+    .s6-columna{
+        text-align: center;
+        padding-right: 0;
+       
+    }
+    .s6-iconos{
+        font-size: 2em;
+        margin-top: 33px;
+    }
+    .s6-p {
+        margin-bottom: 35px;
+    }
+    .s6-title {
+        margin: 42px 0;
+    }
+    .s6-btn {
+        width: 80px;
+        margin: 0 auto;
+    }
+    .textos{
+        flex-direction: column;
+    }
+
+    .footertext{
+        font-size: 12.6px;
+    }
+
+    .s6-form{
+        text-align: start;
+    }
+
+    nav{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
